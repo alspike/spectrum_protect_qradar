@@ -8,7 +8,7 @@ The following anomaly detection notifications are the target for the Proof of Te
 
 “IBM Spectrum Protect provides security notifications for potential ransomware attacks. After client backup sessions, statistics are analysed for signs of ransomware infection, front-end anomaly detection monitors data flow and deduplication patterns for suspicious activity; if signs are present, administrators are notified.”
 
-#Example with RedHat
+# Example with RedHat
 ## High Level Steps
 1. IBM Spectrum Protect performs a backup of some clients
 2. IBM Spectrum Protect detects an anomaly during data reduction and sends a message to rsyslog
