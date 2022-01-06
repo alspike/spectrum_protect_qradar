@@ -13,7 +13,7 @@ The following anomaly detection notifications are the target for the Proof of Te
 1. IBM Spectrum Protect performs a backup of some clients
 2. IBM Spectrum Protect detects an anomaly during data reduction and sends a message to rsyslog
 3. RedHat(or other) rsyslog forwards the message onto QRadar
-4. QRadar accepts the incoming message using the standard Linux OS Log Source Type and Protocol Syslog
+4. QRadar accepts the incoming message using the Syslog protocol for both the application and OS
 5. QRadar parses the message using a custom DSM to extract the relevant information
 6. QRadar combines this with other sources and raises a notification to the security team if appropriate
 
